@@ -1,0 +1,50 @@
+*{  
+    box-sizing:border-box;  
+}  
+  
+body{ 
+    margin: 0;  
+}  
+  
+header{  
+    background-color: rgb(219, 98, 129);  
+    text-align:center;  
+    padding: 25px;  
+}  
+  
+.navbar{  
+    background-color: rgb(133, 174, 184) ;  
+}  
+  
+aside{  
+    width:10%;  
+    float:left;  
+    padding:10px;  
+}  
+  
+section{  
+    width:20%;  
+    float:left;  
+    padding:10px;  
+}  
+  
+article{  
+    border:2px solid;  
+    width:40%;  
+    float:left;  
+    padding:10px;  
+}  
+  
+footer{  
+    display:block;  
+    clear:both;  
+    background-color:rgb(219, 98, 129);
+    text-align:center;  
+    padding: 25px;  
+}  
+  
+@media screen and (max-width:600px)  
+aside, section, article{  
+width:100%  
+
+
